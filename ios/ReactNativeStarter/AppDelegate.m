@@ -32,7 +32,7 @@
 
 
 - (NSURL *)sourceURLForBridge:(RCTBridge *)bridge {
-  return [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
+  return [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
 }
 
 - (UIViewController *)rootViewControllerForCoordinator: (ReactNavigationCoordinator *)coordinator {
